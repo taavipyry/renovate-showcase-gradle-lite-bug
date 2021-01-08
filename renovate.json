@@ -13,6 +13,5 @@
       "managers": ["gradle-lite"],
       "groupName": "Gradle packages"
     }
-  ],
-  "prHourlyLimit": 0
+  ]
 }
