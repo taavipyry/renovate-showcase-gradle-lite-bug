@@ -1,2 +1,2 @@
-# renovate-showcase-gradle-lite-bug
-Showcase of a bug renovate has
+# renovate-gradle-lite-package-failure-showcase
+This repository exists for sole reason to display renovate not being able to handle update of certain types of packages when using gradle-lite.
