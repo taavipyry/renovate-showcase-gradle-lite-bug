@@ -7,6 +7,9 @@
   "gradle-lite": {
     "enabled": true
   },
+  "gradle": {
+    "enabled": false
+  },
   "packageRules": [
     {
       "packagePatterns": ["*"],
