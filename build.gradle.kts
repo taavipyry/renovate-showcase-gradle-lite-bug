@@ -13,12 +13,12 @@ buildscript {
 
 plugins {
 	java
-	kotlin("jvm") version "1.4.0"
-	kotlin("plugin.spring") version "1.4.0"
+	kotlin("jvm") version "1.4.21-2"
+	kotlin("plugin.spring") version "1.4.21-2"
 	id("io.gitlab.arturbosch.detekt") version "1.15.0"
-	id("org.springframework.boot") version "2.4.1"
+	id("org.springframework.boot") version "2.4.2"
 	id("com.github.jk1.dependency-license-report") version "1.16"
-	id("org.sonarqube") version "3.0"
+	id("org.sonarqube") version "3.1"
 }
 
 group = "com.example"
@@ -34,16 +34,16 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	runtimeOnly("org.postgresql:postgresql")
-	implementation("net.logstash.logback:logstash-logback-encoder:6.5")
-	implementation("io.micrometer:micrometer-registry-elastic:1.6.2")
-	implementation("org.postgresql:postgresql:42.2.14")
-	implementation(platform("org.springframework.boot:spring-boot-dependencies:2.4.1"))
+	implementation("net.logstash.logback:logstash-logback-encoder:6.6")
+	implementation("io.micrometer:micrometer-registry-elastic:1.6.3")
+	implementation("org.postgresql:postgresql:42.2.18")
+	implementation(platform("org.springframework.boot:spring-boot-dependencies:2.4.2"))
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("javax.validation:validation-api:2.0.1.Final")
-	implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21")
+	implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21-2")
 	testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
-	testImplementation("org.assertj:assertj-core:3.18.1")
+	testImplementation("org.assertj:assertj-core:3.19.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
